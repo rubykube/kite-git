@@ -4,4 +4,9 @@ require 'gli'
 $: << File.join(File.dirname(__FILE__), "../lib")
 require 'kite'
 
+Kite::Command::Root
+
+
+end
+
 exit Kite::Command::Root.run(ARGV)
