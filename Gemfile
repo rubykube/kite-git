@@ -1,3 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'kite', '~> 0.0.1'
+# Specify your gem's dependencies in kite-git.gemspec
+gemspec

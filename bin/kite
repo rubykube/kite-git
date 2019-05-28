@@ -1,7 +1,0 @@
-#!/usr/bin/env ruby
-require 'gli'
-
-$: << File.join(File.dirname(__FILE__), "../lib")
-require 'kite'
-
-exit Kite::Command::Root.run(ARGV)
